@@ -5,7 +5,7 @@ To compile the CUDA code we need to install the library in the Google Colab.
 ## 1. Computation of the Mandelbrot set (another version from "Karty graficzne")
 Comparing the counting time of the Mandelbrot set for an image with a resolution of 512x512.
 ### Results
-I did 50 iterations to compare thecounting time.\
+I did 50 iterations to compare the counting time.\
 We can see the differences in the execution time of the programs right away.
 #### Mandelbrot CPU results
 ![image](https://user-images.githubusercontent.com/72127610/146686523-d3c300b9-3794-4b41-87ab-7a970b26405a.png)

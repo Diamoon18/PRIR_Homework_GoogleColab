@@ -3,14 +3,16 @@ To compile the CUDA code we need to install the library in the Google Colab.
 ![image](https://user-images.githubusercontent.com/72127610/146687799-529ecb90-192f-4d18-93dd-fd307e30d1ef.png)
 
 ## 1. Computation of the Mandelbrot set (another version from "Karty graficzne")
-
+Comparing the counting time of the Mandelbrot set for an image with a resolution of 512x512.
 ### Results
-I did 50 iterations to compare the runtime.\
+I did 50 iterations to compare thecounting time.\
 We can see the differences in the execution time of the programs right away.
 #### Mandelbrot CPU results
 ![image](https://user-images.githubusercontent.com/72127610/146686523-d3c300b9-3794-4b41-87ab-7a970b26405a.png)
 #### Mandelbrot GPU results
 ![image](https://user-images.githubusercontent.com/72127610/146688080-76e88314-a9ff-447f-85d5-e049f069a65e.png)
+#### Compare chart
+![image](https://user-images.githubusercontent.com/72127610/146688273-6e97a9f7-8b34-481e-926a-b7e616c2c265.png)
 
 ## 2. SAXPY in CPU and GPU (from "Karty graficzne")
 ### What is it SAXPY?

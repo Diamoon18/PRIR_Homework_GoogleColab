@@ -1,5 +1,5 @@
 # PRIR_Homework_GoogleColab
-## 1. Negative picture Lenna512x512 in CPU and GPU
+## 1. Computation of the Mandelbrot set (another version from "Karty graficzne")
 
 ## 2. SAXPY in CPU and GPU (from "Karty graficzne")
 ### What is it SAXPY?

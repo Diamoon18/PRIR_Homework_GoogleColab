@@ -54,14 +54,11 @@ int main(int argc, char **argv) {
     int *Iters = (int*) malloc(sizeof(int)*POZ*PION);     
     unsigned int *RowSums  = (unsigned int*) malloc(sizeof(unsigned int)*PION);
 
-    for(int i = 1; i <= 50; i++)
-    {
-        
+    for(int i = 1; i <= 50; i++) {
         auto start2 = chrono::steady_clock::now();        
-        int SUM = computeMandelbrot(X0,Y0,X1,Y1,POZ,PION,ITER,Iters);
+        int SUM = computeMandelbrot(X0, Y0, X1, Y1, POZ, PION, ITER, Iters);
         auto stop = chrono::steady_clock::now();      
         auto diff = stop - start2;
-        cout << chrono::duration <double, milli> (diff).count() << endl;
-        
+        cout << chrono::duration <double, milli> (diff).count() << endl; 
     }
 }

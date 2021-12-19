@@ -17,15 +17,15 @@ int main(){
   y = (float*) malloc(n * sizeof(float));
 
   clock_t start, stop; 
-	for(int i = 1; i <= 50; i++){
-			start=clock();
+  for(int i = 1; i <= 50; i++){
+	start=clock();
 		
-			saxpy_cpu(n, alpha, x, y);
+	saxpy_cpu(n, alpha, x, y);
 
-			stop = clock(); 
-			double d = (double)(stop - start) * 1000.0 / CLOCKS_PER_SEC;                                                   
-			printf("%lf\n", d);
-	}	
+	stop = clock(); 
+	double d = (double)(stop - start) * 1000.0 / CLOCKS_PER_SEC;                                                   
+	printf("%lf\n", d);
+  }	
   
   free(x);
   free(y);

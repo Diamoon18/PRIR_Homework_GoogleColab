@@ -11,10 +11,10 @@ We can see the differences in the execution time of the programs right away.
 #### Mandelbrot GPU results
 ![image](https://user-images.githubusercontent.com/72127610/146688080-76e88314-a9ff-447f-85d5-e049f069a65e.png)
 #### Compare chart
-Blue - time in s CPU
-Orange - time in s GPU
-From this chart I can make a conclusion that the GPU code version for Mandelbrot set is more efficient than the CPU.
-Acceleration relative to the CPU = 199,0493502
+Blue - time in s CPU\
+Orange - time in s GPU\
+From this chart I can make a conclusion that the GPU code version for Mandelbrot set is more efficient than the CPU.\
+Acceleration relative to the CPU = 199,0493502\
 Also, the time in the CPU are jumping (line curve), while the GPU keeps the same time with a small difference (line straight)
 ![image](https://user-images.githubusercontent.com/72127610/146688273-6e97a9f7-8b34-481e-926a-b7e616c2c265.png)
 ## 2. SAXPY in CPU and GPU (from "Karty graficzne")
